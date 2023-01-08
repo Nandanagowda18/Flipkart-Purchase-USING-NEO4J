@@ -1,0 +1,70 @@
+To create product
+
+LOAD CSV FROM 'file:///Flipkart_Purchase.csv' AS row
+WITH row, toInteger(row[0]) as id, row[1] as labels, row[2] as name, row[3] as Reviews, row[4] as Size, row[5] as Purchased, row[6] as Type, row[7] as Price, toInteger(row[8]) as start, toInteger(row[9]) as end, row[10] as type, toFloat(row[11]) as rating  
+WHERE labels=":Product"
+CREATE (:Product{id:id, name: name, reviews: Reviews, size: Size, purchased: Purchased, type: Type, price: Price})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To create the customers from the  data set file
+
+LOAD CSV FROM 'file:///Flipkart_Purchase.csv' AS row 
+WITH row, toInteger(row[0]) as id, row[1] as labels, row[2] as name, row[3] as Reviews, row[4] as Size, row[5] as Purchased, row[6] as Type, row[7] as Price, toInteger(row[8]) as start, toInteger(row[9]) as end, row[10] as type, toFloat(row[11]) as rating  
+WHERE labels=":Customer"
+CREATE (:Customer{id:id, name: name,Reviews: Reviews})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To create the category
+
+LOAD CSV FROM 'file:///Flipkart_Purchase.csv' AS row
+WITH row, toInteger(row[0]) as id, row[1] as labels, row[2] as name, row[3] as Reviews, row[4] as Size, row[5] as Purchased, row[6] as Type, row[7] as Price, toInteger(row[8]) as start, toInteger(row[9]) as end, row[10] as type, toFloat(row[11]) as rating  
+WHERE labels=":Category"
+CREATE (:Category{id:id, name: name})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To create relation has_product
+
+LOAD CSV FROM 'file:///Flipkart_Purchase.csv' AS row
+WITH row, toInteger(row[0]) as id, row[1] as labels, row[2] as name, row[3] as Reviews, row[4] as Size, row[5] as Purchased, row[6] as Type, row[7] as Price, toInteger(row[8]) as start, toInteger(row[9]) as end, row[10] as type, toFloat(row[11]) as rating  
+WHERE type="HAS_Product"
+MATCH (u:Customer) WHERE u.id= start
+MATCH (a:Product) WHERE a.id= end
+CREATE (u)-[:HAS_Product{rating: rating}]->(a)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To create has_category
+
+LOAD CSV FROM 'file:///Flipkart_Purchase.csv' AS row
+WITH row, toInteger(row[0]) as id, row[1] as labels, row[2] as name, row[3] as Reviews, row[4] as Size, row[5] as Purchased, row[6] as Type, row[7] as Price, toInteger(row[8]) as start, toInteger(row[9]) as end, row[10] as type, toFloat(row[11]) as rating  
+WHERE type="HAS_CATEGORY"
+MATCH (c:Category) WHERE c.id= end
+MATCH (a:Product) WHERE a.id= start
+CREATE (a)-[:HAS_CATEGORY]->(c)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+content- based filtering
+
+MATCH(u:Customer{name:"Belle", lastname:"Iona"})-[:HAS_Product]->(a:Product)-[:HAS_CATEGORY]->(c:Category)<-[:HAS_CATEGORY]-(z:Product)
+WHERE NOT EXISTS ((u)-[:HAS_Product]->(z))
+WITH a, z, COUNT(c) AS intersection
+MATCH (a)-[:HAS_CATEGORY]->(ac:Category)
+WITH a, z, intersection, COLLECT(ac.name) AS a1
+MATCH (z)-[:HAS_CATEGORY]->(zc:Category)
+WITH a, z, a1, intersection, COLLECT(zc.name) AS a2
+WITH a, z, intersection, a1+[x IN a2 WHERE NOT x IN a1] AS union, a1, a2
+RETURN a.name as CustomerProduct, z.name as RecommendedProduct, a1 as CustomerProductCategory, a2 as RecommendedProductCategory, ((1.0*intersection)/SIZE(union)) AS jaccard ORDER BY jaccard DESC
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Collaborative Filtering
+
+MATCH(u:Customer {name: "Amanda"})-[HAS_Product]->(a:Product)<-[:HAS_Product]-(x:Customer)
+MATCH(x)-[:]->(z:Product) WHERE NOT exists((u)-[HAS_Product]->(z))
+RETURN u.name as CustomerName, a.name as CustomerProduct, x.name as OtherCustomersWithSameProduct, z.name as OtherCustomersProduct, z.name as RecommendedProduct 
+

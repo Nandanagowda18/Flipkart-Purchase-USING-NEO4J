@@ -1,0 +1,305 @@
+_id,_labels,Name,Reviews,Size,Purchased,Type,Price,_start,_end,_type,rating
+1,:Product,Jackets,159,m,"10,000+",COD,1500,,,,
+2,:Product,kurtas,967,l,"500,000+",COD,1200,,,,
+3,:Product,mens casuals,967,s,"100,000+",COD,570,,,,
+4,:Product,watches,121,3.1M,"10,000+",COD,5000,,,,
+5,:Product,baby boy dress,13880,s,"1,000,000+",COD,680,,,,
+6,:Product,sarees,3632,5.5M,"500,000+",COD,700,,,,
+7,:Product,adidas,61,7,"100,000+",COD,6000,,,,
+8,:Product,bata shoe,2206,9,"100,000+",COD,8999,,,,
+9,:Product,allopathy,5097,Varies,"1,000,000+",COD,900,,,,
+10,:Product,ayurveda,1754,Varies,"500,000+",COD,788,,,,
+11,:Product,healthcare,2680,Varies,"500,000+",COD,900,,,,
+12,:Product,allopathy,1288,Varies,"100,000+",Paid,1345,,,,
+13,:Product,beverages,18900,10,"500,000+",Paid,590,,,,
+14,:Product,packed foods,49790,Varies,"1,000,000+",Paid,600,,,,
+15,:Product,"atta,rice",1150,Varies,"100,000+",Paid,890,,,,
+16,:Product,snacks,257,Varies,"50,000+",Paid,280,,,,
+17,:Product,masala oil,62,Varies,"10,000+",Paid,270,,,,
+18,:Product,sports jacket,2914724,l,"100,000,000+",COD,160,,,,
+19,:Product,shorts ,1857,s,"50,000+",COD,1500,,,,
+20,:Product,carrom,4478,Varies,"100,000+",COD,1200,,,,
+21,:Product,football gloves,577550,m,"10,000,000+",COD,570,,,,
+22,:Product,football shoes,814080,9,"100,000,000+",COD,5000,,,,
+23,:Product,dinner sets,46505,4,"1,000,000+",COD,680,,,,
+24,:Product,bedroom essentials,11442,7,"100,000+",Paid,700,,,,
+25,:Product,cleaning essentials,10295,6,"100,000+",Paid,6000,,,,
+26,:Product,blankets,159872,2,"10,000,000+",Paid,8999,,,,
+27,:Product,umberalla top,516,m,"50,000+",Paid,900,,,,
+28,:Product,sweatshirts,834,m,"50,000+",Paid,788,,,,
+29,:Product,pullover,1010,l,"50,000+",Paid,900,,,,
+30,:Product,Fila shoes,238970,6,"1,000,000+",Paid,1345,,,,
+31,:Product,motor insurance,12578,Varies,"500,000+",Paid,590,,,,
+32,:Product,health insurance,10965,Varies,"500,000+",Paid,600,,,,
+33,:Product,device insurance,18247,Varies,"100,000+",Paid,890,,,,
+34,:Product,womems hygiene ,516801,Varies,"10,000,000+",Paid,280,,,,
+35,:Product,mens grooming ,3,xl,100+,Paid,270,,,,
+36,:Product,makeup,101,Varies,"10,000+",Paid,160,,,,
+37,:Product,hair care,120,Varies,500+,Paid,3000,,,,
+38,:Product,skin care,24,Varies,"1,000+",Paid,1500,,,,
+39,:Product,tshirts,9770,xxl,"5,000,000+",COD,1200,,,,
+40,:Product,earings,32346,3.2M,"1,000,000+",COD,570,,,,
+41,:Product,hoodies,14286,xs,"5,000,000+",COD,5000,,,,
+42,:Product,ethnic sets,133136,m,"1,000,000+",COD,680,,,,
+43,:Product,mens kurta,2469,m,"500,000+",COD,700,,,,
+44,:Product,suits,36212,xl,"5,000,000+",COD,6000,,,,
+45,:Product,formal shirt,390,m,"500,000+",COD,8999,,,,
+46,:Product,cargos,1090,49M,"1,000,000+",COD,900,,,,
+47,:Product,fornal trosures,266948,21M,"10,000,000+",COD,788,,,,
+48,:Product,wedding saree,342918,8.1M,"10,000,000+",COD,900,,,,
+49,:Product,party saree,748,51M,"1,000,000+",COD,1345,,,,
+50,:Product,silk saree,5741,84M,"1,000,000+",COD,590,,,,
+51,:Product,anarkali ,27572,25M,"5,000,000+",COD,600,,,,
+52,:Product,plazo set ,248555,35m,"5,000,000+",Paid,890,,,,
+53,:Product,jamdani,470089,xxl,"50,000,000+",Paid,280,,,,
+54,:Product,lehanga,10939,4.6M,"10,000,000+",Paid,270,,,,
+55,:Product,netted sare,235496,13M,"10,000,000+",Paid,160,,,,
+56,:Product,froks,23063,17M,"1,000,000+",Paid,567,,,,
+57,:Product,party dress,87384,24M,"10,000,000+",Paid,880,,,,
+58,:Product,short skrit,411683,24M,"50,000,000+",Paid,4000,,,,
+59,:Product,denim,8918,m,"1,000,000+",COD,1700,,,,
+60,:Product,casual shirts,501498,12M,"100,000,000+",COD,4900,,,,
+61,:Product,charger,230727,Varies,"10,000,000+",COD,346,,,,
+62,:Product,power bank,37023,Varies,"10,000,000+",COD,789,,,,
+63,:Product,home audio,422244,Varies,"50,000,000+",COD,8000,,,,
+64,:Product,laptop,98123,Varies,"10,000,000+",COD,35000,,,,
+65,:Product,smart watch,21262,Varies,"1,000,000+",COD,1999,,,,
+66,:Category,fashion,,,,,,,,,
+67,:Category,mediciens,,,,,,,,,
+68,:Category,grocery,,,,,,,,,
+69,:Category,sports ,,,,,,,,,
+70,:Category,home and kitchens ,,,,,,,,,
+71,:Category,fashion,,,,,,,,,
+72,:Category,insurance,,,,,,,,,
+73,:Category,personal care,,,,,,,,,
+74,:Category,fashion,,,,,,,,,
+75,:Category,fashion,,,,,,,,,
+76,:Category,electronics,,,,,,,,,
+77,:Customer,Mary,,,,,,,,,
+78,:Customer,Caroline,,,,,,,,,
+79,:Customer,Katie,,,,,,,,,
+80,:Customer,Lydia,,,,,,,,,
+81,:Customer,Elsie,,,,,,,,,
+82,:Customer,Kate,,,,,,,,,
+83,:Customer,Susan,,,,,,,,,
+84,:Customer,Mollie,,,,,,,,,
+85,:Customer,Alma,,,,,,,,,
+86,:Customer,Addie,,,,,,,,,
+87,:Customer,Georgia,,,,,,,,,
+88,:Customer,Eliza,,,,,,,,,
+89,:Customer,Lulu,,,,,,,,,
+90,:Customer,Nannie,,,,,,,,,
+91,:Customer,Lottie,,,,,,,,,
+92,:Customer,Amanda,,,,,,,,,
+93,:Customer,Belle,,,,,,,,,
+94,:Customer,Charlotte,,,,,,,,,
+95,:Customer,Rebecca,,,,,,,,,
+96,:Customer,Ruth,,,,,,,,,
+97,:Customer,Viola,,,,,,,,,
+98,:Customer,Olive,,,,,,,,,
+99,:Customer,Amelia,,,,,,,,,
+100,:Customer,Hannah,,,,,,,,,
+101,:Customer,Jane,,,,,,,,,
+102,:Customer,Virginia,,,,,,,,,
+103,:Customer,Emily,,,,,,,,,
+104,:Customer,Matilda,,,,,,,,,
+105,:Customer,Irene,,,,,,,,,
+106,:Customer,Kathryn,,,,,,,,,
+107,:Customer,Esther,,,,,,,,,
+108,:Customer,Willie,,,,,,,,,
+109,:Customer,Henrietta,,,,,,,,,
+110,:Customer,Ollie,,,,,,,,,
+111,:Customer,Amy,,,,,,,,,
+112,:Customer,Rachel,,,,,,,,,
+113,:Customer,Sara,,,,,,,,,
+114,:Customer,Estella,,,,,,,,,
+115,:Customer,Adeline,,,,,,,,,
+116,:Customer,Gussie,,,,,,,,,
+117,:Category,fashion,,,,,,,,,
+118,:Category,electronics,,,,,,,,,
+119,:Category,personal care,,,,,,,,,
+120,:Category,insurance,,,,,,,,,
+121,:Category,mediciens,,,,,,,,,
+122,:Category,fashion,,,,,,,,,
+123,:Category,fashion,,,,,,,,,
+124,:Category,fashion,,,,,,,,,
+125,:Category,fashion,,,,,,,,,
+,,,,,,,,77,1,HAS_Product,4.1
+,,,,,,,,78,2,HAS_Product,3.9
+,,,,,,,,79,3,HAS_Product,4.3
+,,,,,,,,80,4,HAS_Product,4.7
+,,,,,,,,81,5,HAS_Product,4.4
+,,,,,,,,82,6,HAS_Product,4.7
+,,,,,,,,83,7,HAS_Product,4.9
+,,,,,,,,84,8,HAS_Product,3.8
+,,,,,,,,85,9,HAS_Product,4.6
+,,,,,,,,86,10,HAS_Product,4
+,,,,,,,,87,11,HAS_Product,4.4
+,,,,,,,,88,12,HAS_Product,4
+,,,,,,,,89,13,HAS_Product,4.7
+,,,,,,,,90,14,HAS_Product,4.9
+,,,,,,,,91,15,HAS_Product,4.7
+,,,,,,,,92,16,HAS_Product,4.7
+,,,,,,,,93,17,HAS_Product,4.2
+,,,,,,,,94,18,HAS_Product,4.6
+,,,,,,,,95,19,HAS_Product,4.5
+,,,,,,,,96,20,HAS_Product,4.6
+,,,,,,,,97,21,HAS_Product,4.4
+,,,,,,,,98,22,HAS_Product,4.2
+,,,,,,,,99,23,HAS_Product,4.2
+,,,,,,,,100,24,HAS_Product,4.7
+,,,,,,,,101,25,HAS_Product,4.8
+,,,,,,,,102,26,HAS_Product,4.2
+,,,,,,,,103,27,HAS_Product,4.8
+,,,,,,,,104,28,HAS_Product,3.9
+,,,,,,,,105,29,HAS_Product,4.1
+,,,,,,,,106,30,HAS_Product,4.4
+,,,,,,,,107,31,HAS_Product,4.1
+,,,,,,,,108,32,HAS_Product,4.2
+,,,,,,,,109,33,HAS_Product,4
+,,,,,,,,110,34,HAS_Product,4
+,,,,,,,,111,35,HAS_Product,5
+,,,,,,,,112,36,HAS_Product,3.7
+,,,,,,,,113,37,HAS_Product,4.5
+,,,,,,,,114,38,HAS_Product,4.2
+,,,,,,,,115,39,HAS_Product,4.5
+,,,,,,,,116,40,HAS_Product,4.7
+,,,,,,,,89,1,HAS_Product,4.1
+,,,,,,,,90,2,HAS_Product,3.9
+,,,,,,,,91,3,HAS_Product,4.3
+,,,,,,,,92,4,HAS_Product,4.7
+,,,,,,,,93,5,HAS_Product,4.4
+,,,,,,,,94,6,HAS_Product,4.7
+,,,,,,,,95,7,HAS_Product,4.9
+,,,,,,,,96,8,HAS_Product,3.8
+,,,,,,,,97,9,HAS_Product,4.6
+,,,,,,,,98,10,HAS_Product,4
+,,,,,,,,99,11,HAS_Product,4.4
+,,,,,,,,100,12,HAS_Product,4
+,,,,,,,,101,13,HAS_Product,4.7
+,,,,,,,,102,14,HAS_Product,4.9
+,,,,,,,,103,15,HAS_Product,4.7
+,,,,,,,,104,16,HAS_Product,4.7
+,,,,,,,,105,17,HAS_Product,4.2
+,,,,,,,,106,18,HAS_Product,4.6
+,,,,,,,,107,19,HAS_Product,4.5
+,,,,,,,,108,20,HAS_Product,4.6
+,,,,,,,,109,21,HAS_Product,4.4
+,,,,,,,,110,22,HAS_Product,4.2
+,,,,,,,,111,23,HAS_Product,4.2
+,,,,,,,,112,24,HAS_Product,4.7
+,,,,,,,,113,25,HAS_Product,4.8
+,,,,,,,,114,26,HAS_Product,4.2
+,,,,,,,,115,27,HAS_Product,4.8
+,,,,,,,,76,28,HAS_Product,3.9
+,,,,,,,,77,29,HAS_Product,4.1
+,,,,,,,,78,30,HAS_Product,4.4
+,,,,,,,,79,31,HAS_Product,4.1
+,,,,,,,,80,32,HAS_Product,4.2
+,,,,,,,,81,50,HAS_Product,4.2
+,,,,,,,,82,51,HAS_Product,3.8
+,,,,,,,,77,52,HAS_Product,4.5
+,,,,,,,,78,53,HAS_Product,4.5
+,,,,,,,,79,54,HAS_Product,3.5
+,,,,,,,,80,55,HAS_Product,4.5
+,,,,,,,,81,56,HAS_Product,4.5
+,,,,,,,,82,57,HAS_Product,3.4
+,,,,,,,,83,58,HAS_Product,4.2
+,,,,,,,,84,59,HAS_Product,4.3
+,,,,,,,,85,60,HAS_Product,4.2
+,,,,,,,,86,61,HAS_Product,4.8
+,,,,,,,,87,62,HAS_Product,4.4
+,,,,,,,,88,63,HAS_Product,4.2
+,,,,,,,,89,64,HAS_Product,4.4
+,,,,,,,,90,65,HAS_Product,4.7
+,,,,,,,,91,41,HAS_Product,4.2
+,,,,,,,,92,42,HAS_Product,4.9
+,,,,,,,,93,43,HAS_Product,3.8
+,,,,,,,,94,44,HAS_Product,4.2
+,,,,,,,,95,45,HAS_Product,4.4
+,,,,,,,,96,46,HAS_Product,4.4
+,,,,,,,,97,47,HAS_Product,4.3
+,,,,,,,,98,48,HAS_Product,4.5
+,,,,,,,,99,49,HAS_Product,4.4
+,,,,,,,,1,66,HAS_CATEGORY,
+,,,,,,,,2,66,HAS_CATEGORY,
+,,,,,,,,2,125,HAS_CATEGORY,
+,,,,,,,,3,66,HAS_CATEGORY,
+,,,,,,,,3,117,HAS_CATEGORY,
+,,,,,,,,4,117,HAS_CATEGORY,
+,,,,,,,,4,66,HAS_CATEGORY,
+,,,,,,,,5,66,HAS_CATEGORY,
+,,,,,,,,6,66,HAS_CATEGORY,
+,,,,,,,,7,66,HAS_CATEGORY,
+,,,,,,,,7,124,HAS_CATEGORY,
+,,,,,,,,8,117,HAS_CATEGORY,
+,,,,,,,,8,66,HAS_CATEGORY,
+,,,,,,,,9,67,HAS_CATEGORY,
+,,,,,,,,10,67,HAS_CATEGORY,
+,,,,,,,,11,67,HAS_CATEGORY,
+,,,,,,,,12,67,HAS_CATEGORY,
+,,,,,,,,13,68,HAS_CATEGORY,
+,,,,,,,,14,68,HAS_CATEGORY,
+,,,,,,,,15,68,HAS_CATEGORY,
+,,,,,,,,16,68,HAS_CATEGORY,
+,,,,,,,,17,68,HAS_CATEGORY,
+,,,,,,,,18,69,HAS_CATEGORY,
+,,,,,,,,19,69,HAS_CATEGORY,
+,,,,,,,,20,69,HAS_CATEGORY,
+,,,,,,,,21,69,HAS_CATEGORY,
+,,,,,,,,22,69,HAS_CATEGORY,
+,,,,,,,,23,70,HAS_CATEGORY,
+,,,,,,,,24,70,HAS_CATEGORY,
+,,,,,,,,25,70,HAS_CATEGORY,
+,,,,,,,,26,70,HAS_CATEGORY,
+,,,,,,,,27,117,HAS_CATEGORY,
+,,,,,,,,27,71,HAS_CATEGORY,
+,,,,,,,,28,71,HAS_CATEGORY,
+,,,,,,,,29,71,HAS_CATEGORY,
+,,,,,,,,30,71,HAS_CATEGORY,
+,,,,,,,,31,72,HAS_CATEGORY,
+,,,,,,,,32,72,HAS_CATEGORY,
+,,,,,,,,33,72,HAS_CATEGORY,
+,,,,,,,,34,73,HAS_CATEGORY,
+,,,,,,,,35,73,HAS_CATEGORY,
+,,,,,,,,36,73,HAS_CATEGORY,
+,,,,,,,,37,73,HAS_CATEGORY,
+,,,,,,,,38,73,HAS_CATEGORY,
+,,,,,,,,39,74,HAS_CATEGORY,
+,,,,,,,,39,117,HAS_CATEGORY,
+,,,,,,,,40,74,HAS_CATEGORY,
+,,,,,,,,41,74,HAS_CATEGORY,
+,,,,,,,,41,117,HAS_CATEGORY,
+,,,,,,,,42,74,HAS_CATEGORY,
+,,,,,,,,43,74,HAS_CATEGORY,
+,,,,,,,,44,123,HAS_CATEGORY,
+,,,,,,,,44,74,HAS_CATEGORY,
+,,,,,,,,45,74,HAS_CATEGORY,
+,,,,,,,,46,117,HAS_CATEGORY,
+,,,,,,,,46,74,HAS_CATEGORY,
+,,,,,,,,47,74,HAS_CATEGORY,
+,,,,,,,,48,74,HAS_CATEGORY,
+,,,,,,,,49,74,HAS_CATEGORY,
+,,,,,,,,49,124,HAS_CATEGORY,
+,,,,,,,,50,125,HAS_CATEGORY,
+,,,,,,,,50,74,HAS_CATEGORY,
+,,,,,,,,51,74,HAS_CATEGORY,
+,,,,,,,,52,122,HAS_CATEGORY,
+,,,,,,,,52,74,HAS_CATEGORY,
+,,,,,,,,53,123,HAS_CATEGORY,
+,,,,,,,,53,75,HAS_CATEGORY,
+,,,,,,,,54,75,HAS_CATEGORY,
+,,,,,,,,55,75,HAS_CATEGORY,
+,,,,,,,,55,122,HAS_CATEGORY,
+,,,,,,,,56,122,HAS_CATEGORY,
+,,,,,,,,56,75,HAS_CATEGORY,
+,,,,,,,,57,75,HAS_CATEGORY,
+,,,,,,,,58,75,HAS_CATEGORY,
+,,,,,,,,59,75,HAS_CATEGORY,
+,,,,,,,,59,117,HAS_CATEGORY,
+,,,,,,,,60,75,HAS_CATEGORY,
+,,,,,,,,61,76,HAS_CATEGORY,
+,,,,,,,,62,76,HAS_CATEGORY,
+,,,,,,,,63,76,HAS_CATEGORY,
+,,,,,,,,64,76,HAS_CATEGORY,
+,,,,,,,,65,76,HAS_CATEGORY,
